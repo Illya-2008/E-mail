@@ -9,9 +9,14 @@ body{
     background-color: #0c131b;
 }
 
+table{
+    border-collapse: collapse;
+}
+
 div{
     width: 500px;
     padding: 20px 50px;
+    margin: 0;
     background-color: #ebd2aa;
 }
 
@@ -27,7 +32,6 @@ h1{
 .last-h1{
     color: #263870;
     font-size: 30px;
-    margin-bottom: 40px;
 }
 
 .last-text{
@@ -65,8 +69,7 @@ b{
 
 .text{
     width: 480px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    padding: 0 50px;
 }
 
 .otherb{
@@ -76,11 +79,6 @@ b{
 .grey{
     font-size: 35px;
     color: #bcbcbd;
-    margin-bottom: 20px;
-}
-
-.second{
-    margin-top: 40px;
 }
 
 a{
@@ -89,14 +87,13 @@ a{
 }
 
 .img{
-    margin-top: 30px;
+    width: 100%;
 }
 
 .button{
-    width: 300px;
+    width: 100%;
     padding: 15px 15px; 
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
@@ -107,11 +104,32 @@ a{
     background-color: #9f15a9;    
 }
 
+.block-button{
+    padding: 0 150px;
+}
+
+.last{
+    padding: 0 150px 50px;
+}
+
 .other{
     color: #9f15a9;
     font-size: 50px;
 }
 
+.line{
+    background-color: #ebd2aa;
+}
+
 .images{
     background-color: #ebd2aa;
+}
+
+h6{
+    font-size: 14px;
+    line-height: 22px;
+    color: #85908c;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
 }
